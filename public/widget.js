@@ -11,7 +11,7 @@
     console.error("Chatbot Widget: No ?id= provided in the script URL.");
     return;
   }
-  const iframeSrc =  `https://chatbot-scr.vercel.app/widget.js?company=${companyId}`;
+  const iframeSrc =  `https://chatbot-scr.vercel.app/chat?company=${companyId}`;
 
 
   const iframe = document.createElement("iframe");
